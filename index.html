@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Query Website</title>
+</head>
+<body>
+    <h1>Query Selection</h1>
+    
+    <!-- Dropdown menu for selecting queries -->
+    <label for="querySelect">Choose a query:</label>
+    <select id="querySelect">
+        <option value="0">Benefits of a balanced diet for mental health</option>
+        <option value="1">How does regular exercise improve sleep quality?</option>
+        <option value="2">Effective ways to quit smoking and improve lung health</option>
+        <option value="3">Importance of sleep for a healthy immune system</option>
+        <option value="4">What is the role of fiber in digestive health?</option>
+        <option value="5">How do vaccines contribute to public health?</option>
+    </select>
+    <button onclick="displayResults()">Show Results</button>
+
+    <h2>Results:</h2>
+    <div id="results"></div> <!-- Div to display document names and contents -->
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
