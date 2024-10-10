@@ -1,6 +1,7 @@
 # IRprojectfinal
 #Information Retrieval System for Health-Related Documents
-This project is a basic information retrieval (IR) system designed to retrieve health-related documents based on user queries. The system applies preprocessing techniques such as tokenization, stop word removal, and stemming to prepare the data. Using TF-IDF vectorization and cosine similarity, the IR system ranks documents according to their relevance to predefined queries.
+
+//This project is a basic information retrieval (IR) system designed to retrieve health-related documents based on user queries. The system applies preprocessing techniques such as tokenization, stop word removal, and stemming to prepare the data. Using TF-IDF vectorization and cosine similarity, the IR system ranks documents according to their relevance to predefined queries.
 
 Key Features
 a) Text Preprocessing: Includes lowercasing, tokenization, removal of stop words, and stemming to prepare the documents and queries for analysis.
